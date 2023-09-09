@@ -1,6 +1,6 @@
 variable "azurerm_resource_group_name" {
   type        = string
-  default     = "ODL-azure-1061757"
+  default     = "ODL-azure-1061797"
 }
 
 variable "node_count" {
@@ -19,10 +19,4 @@ variable "username" {
   type        = string
   description = "The admin username for the new cluster."
   default     = "azureadmin"
-}
-
-variable "resource_group_name" {
-  type        = string
-  default     = "ODL-azure-1061757"
-  description = "Resource group name."
 }
